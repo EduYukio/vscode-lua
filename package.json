@@ -1,16 +1,16 @@
 {
-  "name": "vscode-lua",
-  "displayName": "vscode-lua",
-  "description": "Intellisense and Linting for Lua",
-  "version": "0.12.4",
-  "publisher": "trixnz",
-  "homepage": "https://github.com/trixnz/vscode-lua#readme",
+  "name": "vscode-lua-no-symbol",
+  "displayName": "vscode-lua-no-symbol",
+  "description": "Intellisense and Linting for Lua (with option to disable GoToSymbol)",
+  "version": "1.0.0",
+  "publisher": "EduYukio",
+  "homepage": "https://github.com/EduYukio/vscode-lua#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trixnz/vscode-lua"
+    "url": "https://github.com/EduYukio/vscode-lua"
   },
   "bugs": {
-    "url": "https://github.com/trixnz/vscode-lua/issues"
+    "url": "https://github.com/EduYukio/vscode-lua/issues"
   },
   "license": "MIT",
   "icon": "images/icon.png",
@@ -143,6 +143,11 @@
           },
           "default": [],
           "description": "Additional arguments to pass to luacheck"
+        },
+        "lua.symbol.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Specifies whether to enable the 'Go to symbol' feature."
         }
       }
     }
@@ -155,7 +160,8 @@
     "travis-deploy": "vsce publish -p $VS_TOKEN"
   },
   "devDependencies": {
-    "@types/node": "^10.12.18",
+    "@types/node": "^10.17.60",
+    "esbuild": "^0.20.2",
     "gulp": "^4.0.0",
     "gulp-bump": "^3.1.1",
     "gulp-git": "^2.8.0",
@@ -169,6 +175,10 @@
     "vscode": "^1.1.26"
   },
   "dependencies": {
-    "vscode-languageclient": "^5.2.1"
+    "node-hot": "^4.0.3",
+    "process": "^0.11.10",
+    "require": "^2.4.20",
+    "vscode-languageclient": "^5.2.1",
+    "vscode-languageserver": "^9.0.1"
   }
 }

@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/trixnz/vscode-lua.svg?branch=master)](https://travis-ci.org/trixnz/vscode-lua) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/trixnz.vscode-lua.svg)](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua)
+
+# IMPORTANT
+Made by [trixnz](https://github.com/trixnz).
+I just added a settings option to disable the "Go To Symbol" feature, which was conflicting with the Lua Language Server extension by [sumneko](https://github.com/sumneko).
 
 # Lua for Visual Studio Code
 Provides Intellisense and Linting for Lua in VSCode
