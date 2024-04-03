@@ -1,7 +1,8 @@
 
 # IMPORTANT
-Made by [trixnz](https://github.com/trixnz).
-I just added a settings option to disable the "Go To Symbol" feature, which was conflicting with the Lua Language Server extension by [sumneko](https://github.com/sumneko).
+This was made by [trixnz](https://github.com/trixnz).
+
+I just added an option on the extension settings to disable the "Go To Symbol" feature, which was conflicting with the Lua Language Server extension by [sumneko](https://github.com/sumneko).
 
 # Lua for Visual Studio Code
 Provides Intellisense and Linting for Lua in VSCode
