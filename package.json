@@ -2,7 +2,7 @@
   "name": "vscode-lua-no-symbol",
   "displayName": "vscode-lua-no-symbol",
   "description": "Intellisense and Linting for Lua (with option to disable GoToSymbol)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "EduYukio",
   "homepage": "https://github.com/EduYukio/vscode-lua#readme",
   "repository": {
